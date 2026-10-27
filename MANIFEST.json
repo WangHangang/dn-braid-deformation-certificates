@@ -5,6 +5,7 @@
     "caches",
     "git metadata"
   ],
+  "public_text_line_endings": "LF; historical original files unchanged",
   "files": [
     {
       "path": ".gitignore",
@@ -53,33 +54,33 @@
     },
     {
       "path": "code/laurent_core.py",
-      "bytes": 2909,
-      "sha256": "d37aef529b82866018046d3030056488a61acd94b54567093c87b543bc6f4cf5"
+      "bytes": 2808,
+      "sha256": "a0c5dae12bd3629d59e9f0affa2cbd455ca297b2b74d4af8249974ee063f3047"
     },
     {
       "path": "code/replay_independent_audit.py",
-      "bytes": 4615,
-      "sha256": "79915b47b4bc255af4bfb21a12a6926dac42b382f386f4f44c61cf122099f7f2"
+      "bytes": 4546,
+      "sha256": "554cb9c48363ada4880866d5d691be43e7b41fe7f59134b3809e73c2c9b41038"
     },
     {
       "path": "code/run_all.py",
-      "bytes": 897,
-      "sha256": "9d276681a871b8ca770b982ca983e42e92b5228695a4a896b95666c3ce0b7ed1"
+      "bytes": 881,
+      "sha256": "afe4dd3d3dd000f338ba7a6ea2371e2566527e3e3e78d51db2c4a31ae810aec6"
     },
     {
       "path": "independent_review/check_claims_independent.py",
-      "bytes": 3617,
-      "sha256": "41ee60de6c5e46885b7ec7a17e9621ba19d04ad9dd60861f1adcce0095bd1939"
+      "bytes": 3525,
+      "sha256": "e476d58b221dd7c6acf737ee894e2e9585c44d8bbf5a1d3eb9f41b43928a1b6c"
     },
     {
       "path": "independent_review/check_normal_form_symbolic.py",
-      "bytes": 1937,
-      "sha256": "4447d17501e7df51751cdc815de2ba076ebf30406fef7c3aeb5c4ab5e2f35899"
+      "bytes": 1892,
+      "sha256": "946ca50bc5e95c87855c53f03357440ed0f11ab5b4fa384293092eb65be9f1f8"
     },
     {
       "path": "independent_review/check_outer_independent.py",
-      "bytes": 1833,
-      "sha256": "494467b4d48356df96e1e5042e83119c3b2cdc1f904fe70d8c0647e052f25879"
+      "bytes": 1780,
+      "sha256": "239d755d11e72d1253feb5e3367736c17d1e3b9352bc9a706e3b8cbaa404fe8c"
     },
     {
       "path": "input_certificates/d4_weight_alt_certificate.json",
@@ -123,33 +124,33 @@
     },
     {
       "path": "results/family_check.json",
-      "bytes": 283,
-      "sha256": "27dfc72116f25ffcd9a543eecca68e2a7513e33f7f49bbed6c6efdba19a41789"
+      "bytes": 273,
+      "sha256": "88d4a49bc28dea92d070c448565f05e8e4f76b6e0b068ccc4da0f4986c86668a"
     },
     {
       "path": "results/independent_certificate_audit.json",
-      "bytes": 3536,
-      "sha256": "712048f8c2bc4fd4fc9fe0a7482bd5f6571f3f651308a3564853db282aa591e4"
+      "bytes": 3425,
+      "sha256": "3422fca51a7ad0c142b3ff54c914976f4fc6e8050c53b727e66fe7751426e417"
     },
     {
       "path": "results/normal_form_checks.json",
-      "bytes": 3836,
-      "sha256": "2e7000e9553336560a77557136c7ab90ff79abba61e6c584d3fe02fbf80748ee"
+      "bytes": 3585,
+      "sha256": "c9e7b5a962e9a3003bb6509e11850d344af36e1b39d5f296730e1679894f810c"
     },
     {
       "path": "results/prior_art_dictionary_checks.json",
-      "bytes": 783,
-      "sha256": "a0eba3bd2e1cf06f357d31455ec2c42ae610e945c4ec4e449d12a186b1efb112"
+      "bytes": 762,
+      "sha256": "a75233cf61cbca4504652157dd1b8e1086448884ce04ace820c6792924a4b610"
     },
     {
       "path": "results/received_audit_replay.json",
-      "bytes": 2545,
-      "sha256": "887800c04d88804b252eafb948c6fec792440b3c35a6923e8e95a61052f13434"
+      "bytes": 2495,
+      "sha256": "b64b64f7a8ff8f7ee32ca50022fe614ce800c88fbd378a4de16838225ae78a78"
     },
     {
       "path": "results/uniform_identity_checks.json",
-      "bytes": 554,
-      "sha256": "b9a99ff70d1dd77e77df5eee281b13cfd8ed23b8825a3eada919cbed748b94cb"
+      "bytes": 532,
+      "sha256": "a0ceee537b4f7e1473fe8ef4d3fa129b78308c0d88af082011b3523e6465043b"
     }
   ]
 }
