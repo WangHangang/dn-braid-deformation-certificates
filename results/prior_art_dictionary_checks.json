@@ -1,0 +1,21 @@
+{
+  "source": "Isaev--Ogievetsky--Pyatov, Proc. Steklov Inst. Math.246 (2004),134-141; arXiv:math/0509251, Eq.(43)",
+  "dictionary": "s=q^-1; J(v_i)=v_i_prime; f_ij=chi(mu_i_prime,mu_j_prime); external reflected diagonal basis; same scalar",
+  "scope": "Exact finite-rank diagnostics of the written uniform change of indices, not a proof of novelty or all-rank exhaustion",
+  "results": [
+    {
+      "n": 4,
+      "independent_Laurent_parameters": 15,
+      "coefficient_positions_compared": 115,
+      "twisting_constraint_identities": 136,
+      "result": "PASS"
+    },
+    {
+      "n": 5,
+      "independent_Laurent_parameters": 21,
+      "coefficient_positions_compared": 184,
+      "twisting_constraint_identities": 210,
+      "result": "PASS"
+    }
+  ]
+}

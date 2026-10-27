@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the exact commit used when referring to these reproducibility materials."
+type: software
+title: "Type-D Infinitesimal Braid Deformations: Reproducibility Materials"
+version: "2026-10-27"
+date-released: "2026-10-27"
+authors:
+  - family-names: Wang
+    given-names: Hangang
+repository-code: "https://github.com/WangHangang/dn-braid-deformation-certificates"
+url: "https://github.com/WangHangang/dn-braid-deformation-certificates"
+abstract: "Exact Laurent diagnostics and modular rank certificates accompanying a uniform calculation of classical-weight-preserving infinitesimal braid deformations of type D. Finite computations do not replace the all-rank written proof."
+keywords:
+  - Yang-Baxter equation
+  - quantum groups
+  - type D
+  - infinitesimal deformations
+  - reproducibility

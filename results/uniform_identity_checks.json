@@ -1,0 +1,22 @@
+{
+  "method": "exact Laurent expansion in Z[q,q^-1]; no sampling",
+  "scope": "diagnostic checks of the written uniform coefficient proof; finite checks alone do not prove the theorem",
+  "results": [
+    {
+      "n": 4,
+      "coefficient_identities_checked": 203,
+      "result": "PASS"
+    },
+    {
+      "n": 5,
+      "coefficient_identities_checked": 333,
+      "result": "PASS"
+    },
+    {
+      "n": 6,
+      "coefficient_identities_checked": 495,
+      "result": "PASS"
+    }
+  ],
+  "elapsed_seconds": 0.2217604999896139
+}

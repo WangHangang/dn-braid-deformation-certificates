@@ -1,0 +1,50 @@
+{
+  "supplied_script_directory": "anc/independent_review",
+  "changes_to_received_originals": false,
+  "source_scripts": {
+    "check_normal_form_symbolic.py": {
+      "original_sha256": "4447d17501e7df51751cdc815de2ba076ebf30406fef7c3aeb5c4ab5e2f35899",
+      "portability_change": "public scripts already omit obsolete sys.path insertion; calculations unchanged"
+    },
+    "check_outer_independent.py": {
+      "original_sha256": "494467b4d48356df96e1e5042e83119c3b2cdc1f904fe70d8c0647e052f25879",
+      "portability_change": "public scripts already omit obsolete sys.path insertion; calculations unchanged"
+    },
+    "check_claims_independent.py": {
+      "original_sha256": "41ee60de6c5e46885b7ec7a17e9621ba19d04ad9dd60861f1adcce0095bd1939",
+      "portability_change": "public scripts already omit obsolete sys.path insertion; calculations unchanged"
+    }
+  },
+  "runs": [
+    {
+      "script": "check_outer_independent.py",
+      "scope": "outer",
+      "coefficient_checks": 150,
+      "status": "PASS",
+      "stdout": "4 2 19 errors []\n4 3 19 errors []\n5 2 25 errors []\n5 3 25 errors []\n6 2 31 errors []\n6 3 31 errors []\n"
+    },
+    {
+      "script": "check_claims_independent.py",
+      "scope": "received_internal",
+      "coefficient_checks": 628,
+      "status": "PASS",
+      "stdout": "n=4 q=2 coefficient checks=114 mismatches=0\nn=4 q=3 coefficient checks=114 mismatches=0\nn=5 q=2 coefficient checks=200 mismatches=0\nn=5 q=3 coefficient checks=200 mismatches=0\n"
+    },
+    {
+      "script": "check_rowN_added.py",
+      "scope": "supplementary_row_N",
+      "coefficient_checks": 28,
+      "status": "PASS",
+      "stdout": "n=4 q=2 coefficient checks=6 mismatches=0\nn=4 q=3 coefficient checks=6 mismatches=0\nn=5 q=2 coefficient checks=8 mismatches=0\nn=5 q=3 coefficient checks=8 mismatches=0\n"
+    }
+  ],
+  "symbolic_assertions": {
+    "count": 5,
+    "sympy_version": "1.14.0",
+    "status": "PASS",
+    "stdout": "(1, 1, 2) (1, 1, 2) -p*(q - 1)*(q + 1)/q**2\n(2, 1, 1) (2, 1, 1) (q - 1)*(q + 1)*(-d + q**2*x_a - q*u - q*v + x_a)/q**2\n(2, 2, 1) (2, 2, 1) -(q - 1)*(q + 1)*(-d + q**2*x_b - q*u - q*v + x_b)/q**2\n(3, 1, 2) (3, 1, 2) (q - 1)*(q + 1)*(t12 - t13)/q\n(2, 3, 1) (2, 3, 1) (q - 1)*(q + 1)*(t13 - t23)/q\n"
+  },
+  "received_coefficient_checks_replayed": 778,
+  "additional_row_N_coefficient_checks": 28,
+  "scope": "Independent finite-field/symbolic diagnostics; the uniform theorem is established by the written index proof, not these samples."
+}
