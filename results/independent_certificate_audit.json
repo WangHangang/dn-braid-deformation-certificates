@@ -12,7 +12,7 @@
       "independent_determinant": 623429958,
       "rowmajor_sha256": "62fab84d608d79dd4915497b1969b255b4cf48c58e8495604f32101e39397432",
       "matches_supplied_determinant": null,
-      "elapsed_seconds": 0.038,
+      "elapsed_seconds": 0.054,
       "status": "PASS"
     },
     {
@@ -26,7 +26,7 @@
       "independent_determinant": 673269329,
       "rowmajor_sha256": "35c374cb58b0a9a5f3bbd4664d9f65ba33511b5675d6bab957ae77b26f718038",
       "matches_supplied_determinant": true,
-      "elapsed_seconds": 0.036,
+      "elapsed_seconds": 0.057,
       "status": "PASS"
     },
     {
@@ -40,7 +40,7 @@
       "independent_determinant": 905145821,
       "rowmajor_sha256": "b0844edbcc3cc6dcd2d48d2d644a1cd2cfd86707252a2148ba0bbfcc31167fd7",
       "matches_supplied_determinant": null,
-      "elapsed_seconds": 0.128,
+      "elapsed_seconds": 0.105,
       "status": "PASS"
     },
     {
@@ -54,7 +54,7 @@
       "independent_determinant": 670446451,
       "rowmajor_sha256": "f5d9c10555d084254be9b9582277acf64d14c0af80722c1495cc81ab99f8be15",
       "matches_supplied_determinant": true,
-      "elapsed_seconds": 0.074,
+      "elapsed_seconds": 0.107,
       "status": "PASS"
     },
     {
@@ -68,7 +68,7 @@
       "independent_determinant": 912656330,
       "rowmajor_sha256": "fedc9050ace8c303d94eccdc4fe2b5faeb4c2a7ef6578f036a9b5463da07b1e8",
       "matches_supplied_determinant": true,
-      "elapsed_seconds": 0.158,
+      "elapsed_seconds": 0.194,
       "status": "PASS"
     },
     {
@@ -82,7 +82,7 @@
       "independent_determinant": 392961350,
       "rowmajor_sha256": "3accd757c1513c8484e033c83f5521bf27be844501764807ec84da6cbc936740",
       "matches_supplied_determinant": null,
-      "elapsed_seconds": 0.317,
+      "elapsed_seconds": 0.484,
       "status": "PASS"
     }
   ],

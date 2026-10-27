@@ -5,7 +5,6 @@
     "caches",
     "git metadata"
   ],
-  "public_text_line_endings": "LF; historical original files unchanged",
   "files": [
     {
       "path": ".gitignore",
@@ -125,12 +124,12 @@
     {
       "path": "results/family_check.json",
       "bytes": 273,
-      "sha256": "88d4a49bc28dea92d070c448565f05e8e4f76b6e0b068ccc4da0f4986c86668a"
+      "sha256": "79ba56e9f9002fcd965d3b1f18eb9b931291e35bc33ac7dc37ccde7cbd1883b6"
     },
     {
       "path": "results/independent_certificate_audit.json",
       "bytes": 3425,
-      "sha256": "3422fca51a7ad0c142b3ff54c914976f4fc6e8050c53b727e66fe7751426e417"
+      "sha256": "f5d8b28589bcc875ab4c059a2b3c105cebe9dc6d81267ce5b30897eb30b51016"
     },
     {
       "path": "results/normal_form_checks.json",
@@ -145,12 +144,12 @@
     {
       "path": "results/received_audit_replay.json",
       "bytes": 2495,
-      "sha256": "b64b64f7a8ff8f7ee32ca50022fe614ce800c88fbd378a4de16838225ae78a78"
+      "sha256": "5bf6cd4e3d5d0d3b3b0d0dd01b82516b74e8779a495a87281d772a5af23952ae"
     },
     {
       "path": "results/uniform_identity_checks.json",
-      "bytes": 532,
-      "sha256": "a0ceee537b4f7e1473fe8ef4d3fa129b78308c0d88af082011b3523e6465043b"
+      "bytes": 533,
+      "sha256": "31fb14c278811ce79569a7b44e85e15672f497da664ea617e04a8bf55ba19ece"
     }
   ]
 }

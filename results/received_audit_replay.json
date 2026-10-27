@@ -3,15 +3,15 @@
   "changes_to_received_originals": false,
   "source_scripts": {
     "check_normal_form_symbolic.py": {
-      "original_sha256": "4447d17501e7df51751cdc815de2ba076ebf30406fef7c3aeb5c4ab5e2f35899",
+      "original_sha256": "946ca50bc5e95c87855c53f03357440ed0f11ab5b4fa384293092eb65be9f1f8",
       "portability_change": "public scripts already omit obsolete sys.path insertion; calculations unchanged"
     },
     "check_outer_independent.py": {
-      "original_sha256": "494467b4d48356df96e1e5042e83119c3b2cdc1f904fe70d8c0647e052f25879",
+      "original_sha256": "239d755d11e72d1253feb5e3367736c17d1e3b9352bc9a706e3b8cbaa404fe8c",
       "portability_change": "public scripts already omit obsolete sys.path insertion; calculations unchanged"
     },
     "check_claims_independent.py": {
-      "original_sha256": "41ee60de6c5e46885b7ec7a17e9621ba19d04ad9dd60861f1adcce0095bd1939",
+      "original_sha256": "e476d58b221dd7c6acf737ee894e2e9585c44d8bbf5a1d3eb9f41b43928a1b6c",
       "portability_change": "public scripts already omit obsolete sys.path insertion; calculations unchanged"
     }
   },
